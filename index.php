@@ -7,6 +7,7 @@
     <meta name="keywords" content="chokoladis, работы chokoladis">
     <meta name="description" content="">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
@@ -27,8 +28,13 @@
             </ul>
         </div>
     </main>
+
     <footer>
         <div class="container">
+            <div class="menu">
+                <a href="#">Important updates</a>
+            </div>
+
             <i>p.s. coming soon</i>
             <p>for contacts <a href="https://t.me/chokoladis">telegram</a></p>
             <div class="copyright">copyright 2024y.</div>
