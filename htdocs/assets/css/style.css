@@ -8,6 +8,12 @@
 
 body, html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(90deg, blue, red); */
+    background: linear-gradient(90deg, rgb(0, 0, 102), rgb(4, 106, 208));
+    color: rgb(173, 173, 173);
+}
+header{
+    padding: 20px 0;
 }
 
 main{
@@ -32,54 +38,60 @@ ul li {
     position: relative;
     z-index: 0;
 }
-ul li .blur, ul li::after{
+/* ul li .blur, ul li::after{
     position: absolute;
     display: block;
     left: 0;
     right: 0;
     top:0;
     bottom: 0;
-}
-ul li .blur{
-    margin: 0 auto;
+} */
+/* ul li .blur{ */
+    /* margin: 0 auto; */
     /* background: rgba(0,0,0,0); */
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     filter: blur(3px);
     backdrop-filter: blur(3px);
-    z-index: 2;
-}
-ul li::after{
+    z-index: 2; */
+/* } */
+/* ul li::after{
     content: '';
-    width: 50%;
+    width: 30%;
     height: 40%;
-    box-shadow: 0px 0px 20px coral;
-    background-color: coral;
+    box-shadow: 0px 0px 15px rgb(128, 49, 20);
+    background-color: rgb(205, 83, 39);
     transform: scale(0.6);
     opacity: 0;
     z-index: -1;
     margin: auto;
 }
 ul li:hover::after{
-    transform: scale(1);
-    opacity: 1;
-    transition: .3s;;
-}
-ul li:hover .blur{
+    transform: scale(0.9);
+    opacity: 0.4;
+    transition: .4s;;
+} */
+/* ul li:hover .blur{
     filter: blur(7px);
     backdrop-filter: blur(7px);
-}
+} */
 ul li a {
-    color: black;
+    color: rgb(173, 173, 173);
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
     z-index: 5;
 }
+ul li:hover{
+    /* transform: skewX(-12deg); */
+    transform: skewX(-12deg) matrix3d(1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    /* transform: matrix(1.2, 0, 0, 0 ,0 ,0); */
+    transition: .4s;
+}
 
 footer{
     margin-top: 200px;
-    padding-top: 50px;
+    padding: 40px 0;
     /* border-top: 2px solid rgb(224, 224, 224); */
 }
 footer i, footer .copyright, footer p{
