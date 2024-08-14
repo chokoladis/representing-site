@@ -3,39 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chokoladis stuff</title>
-    <meta name="keywords" content="chokoladis, works chokoladis">
-    <meta name="description" content="compilation important projects created by chokoladis">
+    <title>chokoladis stuff - updates</title>
+    <meta name="keywords" content="chokoladis, important updates in projects">
+    <meta name="description" content="important updates in projects created by chokoladis">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div class="container"></div>
+        <div class="container text-center">
+            <h1>Важные обновления в проектах</h1>
+            <h2>Important updates in projects</h2>
+        </div>
     </header>
     <main>
         <div class="container">
-            <ul>
-                <li>
-                    <a href="https://github.com/chokoladis/portfolio">you2profile</a>
-                    <div class="blur"></div>
-                </li>
-                <li>
-                    <a href="https://github.com/chokoladis/strange-question">what.if</a>
-                    <div class="blur"></div>
-                </li>
-                <li>
-                    <a href="/gen.meme/">meme.gen</a>
-                    <div class="blur"></div>
-                </li>
-            </ul>
+            <div class="block">
+                <a href="https://you-portfolio.ru/">you-portfolio</a>
+                <p>
+                    <b>14.08.2024 - </b>
+                    Куплен домен, тестируется
+                </p>
+                ...
+            </div>
+            <div class="block">
+                <a href="https://github.com/chokoladis/strange-question">what.if</a>
+                <p>
+                    <b>... - </b>
+                    ...
+                </p>
+            </div>
+            <div class="block">
+                <a href="/gen.meme/">meme.gen</a>
+                <p>
+                    <b>14.08.2024 - </b>
+                    Работа с мультиязычностью
+                </p>
+            </div>
+                    
         </div>
     </main>
 
     <footer>
         <div class="container">
             <div class="menu">
-                <a href="/updates">Important updates</a>
+                <a href="#">Important updates</a>
             </div>
 
             <p>for contacts <a href="https://t.me/chokoladis">telegram</a></p>
