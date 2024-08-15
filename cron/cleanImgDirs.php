@@ -1,21 +1,23 @@
 <?
 
-$pathTemp = $_SERVER['DOCUMENT_ROOT'].'/htdocs/gen.meme/upload/temp/';
-$pathGenerated = $_SERVER['DOCUMENT_ROOT'].'/htdocs/gen.meme/upload/generated/';
+$root = __DIR__ . '/../';
 
-function clearDir($dir, $rmdir = false) {
+$pathTemp = $root . 'htdocs/gen.meme/upload/temp/';
+$pathGenerated = $root . 'htdocs/gen.meme/upload/generated/';
+
+function clearDir($dir, $rmdir = false)
+{
 
     if ($objs = glob($dir . '/*')) {
         foreach ($objs as $obj) {
-            is_dir($obj) ? clearDir($obj, $rmdir) : unlink($obj);
+            is_dir($obj) ? clearDir($obj, true) : unlink($obj);
         }
     }
 
     if ($rmdir && is_dir($dir)) {
         rmdir($dir);
     }
-
 }
 
-clearDir($pathTemp, true);
-clearDir($pathGenerated, true);
+clearDir($pathTemp);
+clearDir($pathGenerated);

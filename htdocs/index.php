@@ -17,16 +17,13 @@
         <div class="container">
             <ul>
                 <li>
-                    <a href="https://github.com/chokoladis/portfolio">you2profile</a>
-                    <div class="blur"></div>
+                    <a href="https://you-portfolio.ru/">you-portfolio</a>
                 </li>
                 <li>
                     <a href="https://github.com/chokoladis/strange-question">what.if</a>
-                    <div class="blur"></div>
                 </li>
                 <li>
                     <a href="/gen.meme/">meme.gen</a>
-                    <div class="blur"></div>
                 </li>
             </ul>
         </div>
