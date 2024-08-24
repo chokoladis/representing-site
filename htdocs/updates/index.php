@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chokoladis stuff - updates</title>
-    <meta name="keywords" content="chokoladis, important updates in projects">
-    <meta name="description" content="important updates in projects created by chokoladis">
-    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>chokoladis stuff - updates</title>
+    <meta name="keywords" content="chokoladis, важные обновления в проектах">
+    <meta name="description" content="важные обновления в проектах сделанных chokoladis">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header>
@@ -19,7 +21,13 @@
     <main>
         <div class="container">
             <div class="block">
-                <a href="https://you-portfolio.ru/">you-portfolio</a>
+                <a href="https://you-portfolio.online/">you-portfolio</a>
+                <p>
+                    <b>24.08.2024 - </b>
+                    Добавлены кастомные страницы ошибок, верификация аккаунтов по почте, сжатие видео и картинок,
+                    <br>доработано: меню, права, админка
+                    <br>начата миграция и настройка сайта на хостинг
+                </p>
                 <p>
                     <b>14.08.2024 - </b>
                     Куплен домен, тестируется
@@ -36,6 +44,10 @@
             <div class="block">
                 <a href="/gen.meme/">meme.gen</a>
                 <p>
+                    <b>24.08.2024 - </b>
+                    Добавлен поддомен meme.chokoladis.ru
+                </p>
+                <p>
                     <b>14.08.2024 - </b>
                     Работа с мультиязычностью
                 </p>
@@ -47,7 +59,7 @@
     <footer>
         <div class="container">
             <div class="menu">
-                <a href="#">Important updates</a>
+                <a href="#">Важные обновления</a>
             </div>
 
             <p>for contacts <a href="https://t.me/chokoladis">telegram</a></p>

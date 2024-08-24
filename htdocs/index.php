@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chokoladis stuff</title>
-    <meta name="keywords" content="chokoladis, works chokoladis">
-    <meta name="description" content="compilation important projects created by chokoladis">
-    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico">
+    
+    <title>chokoladis stuff</title>
+    <meta name="keywords" content="chokoladis, работы chokoladis">
+    <meta name="description" content="подборка важных проектов сделанных chokoladis">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
         <div class="container">
             <ul>
                 <li>
-                    <a href="https://you-portfolio.ru/">you-portfolio</a>
+                    <a href="https://you-portfolio.online/">you-portfolio</a>
                 </li>
                 <li>
                     <a href="https://github.com/chokoladis/strange-question">what.if</a>
@@ -32,7 +34,7 @@
     <footer>
         <div class="container">
             <div class="menu">
-                <a href="/updates">Important updates</a>
+                <a href="/updates">Важные обновления</a>
             </div>
 
             <p>for contacts <a href="https://t.me/chokoladis">telegram</a></p>
