@@ -28,6 +28,7 @@ main{
 ul{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 ul li {
     width: 100%;
@@ -109,4 +110,27 @@ footer a:hover{
 }
 footer .menu{
     margin-bottom: 100px;
+}
+
+.page-updates .block{
+    margin-bottom: 15px;
+}
+.page-updates .block:last-of-type{
+    margin: 0;
+}
+.page-updates .block a{
+    font-size: 24px;
+    color:yellowgreen;
+}
+.page-updates .block a:visited{
+    color:brown;
+}
+.page-updates .block a:hover{
+    color: chocolate;
+}
+.page-updates .block b{
+    font-size: 18px;
+}
+.page-updates .block p{
+    margin-top: 5px;
 }

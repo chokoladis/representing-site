@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="yandex-verification" content="c25b0045936c7c62" />
+    
+    <meta name="keywords" content="chokoladis, работы chokoladis">
+    <meta name="description" content="подборка важных проектов сделанных chokoladis">
+    <title>chokoladis stuff</title>
+    
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico">
     
-    <title>chokoladis stuff</title>
-    <meta name="keywords" content="chokoladis, работы chokoladis">
-    <meta name="description" content="подборка важных проектов сделанных chokoladis">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>

@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico">
 
-    <title>chokoladis stuff - updates</title>
+    <title>chokoladis stuff - обновления</title>
     <meta name="keywords" content="chokoladis, важные обновления в проектах">
     <meta name="description" content="важные обновления в проектах сделанных chokoladis">
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -18,10 +18,14 @@
             <h2>Important updates in projects</h2>
         </div>
     </header>
-    <main>
+    <main class="page-updates">
         <div class="container">
             <div class="block">
-                <a href="https://you-portfolio.online/">you-portfolio</a>
+                <a href="http://you-portfolio.online/">you-portfolio</a>
+                <p>
+                    <b>29.08.2024 - </b>
+                    Открыт доступ на сайт, множество правок связанных с переносом (установка расширений, донастройка почтовых писем)
+                </p>
                 <p>
                     <b>24.08.2024 - </b>
                     Добавлены кастомные страницы ошибок, верификация аккаунтов по почте, сжатие видео и картинок,
@@ -44,6 +48,10 @@
             <div class="block">
                 <a href="/gen.meme/">meme.gen</a>
                 <p>
+                    <b>29.08.2024 - </b>
+                    (локально) Добавлены модели и контроллеры для поиска по описанию мема, созданы таблицы для дефолтных мемов и статистики
+                </p>
+                <p>
                     <b>24.08.2024 - </b>
                     Добавлен поддомен meme.chokoladis.ru
                 </p>
@@ -58,9 +66,6 @@
 
     <footer>
         <div class="container">
-            <div class="menu">
-                <a href="#">Важные обновления</a>
-            </div>
 
             <p>for contacts <a href="https://t.me/chokoladis">telegram</a></p>
             <div class="copyright">© chokoladis.ru, 2024</div>
